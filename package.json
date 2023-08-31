@@ -4,7 +4,8 @@
   "description": "0. [Основы отладки](./0.debugger/)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AWmakar/Node.js/issues"
   },
-  "homepage": "https://github.com/AWmakar/Node.js#readme"
+  "homepage": "https://github.com/AWmakar/Node.js#readme",
+  "devDependencies": {
+    "eslint": "7.1.0"
+  }
 }
